@@ -3,7 +3,7 @@ import { Product } from "./Product";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-cream h-screen flex">
       <Product/>
     </div>
   );

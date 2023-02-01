@@ -5,6 +5,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '375px',
+        // => @media (min-width: 375px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1440px',
+        // => @media (min-width: 140px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+      },
       colors: {
         'dark-cyan': 'hsl(158, 36%, 37%)',
         'cream' : 'hsl(30, 38%, 92%)',
@@ -13,7 +29,7 @@ module.exports = {
         'dark blue':'hsl(212, 21%, 14%)',
         'white': 'hsl(0, 0%, 100%)'
       },
-      
+
       fontSize: {
         sm: '0.6rem',
         base: '14px',

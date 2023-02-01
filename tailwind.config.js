@@ -26,7 +26,7 @@ module.exports = {
         'cream' : 'hsl(30, 38%, 92%)',
 
         'grayish-blue': 'hsl(228, 12%, 48%)',
-        'dark blue':'hsl(212, 21%, 14%)',
+        'dark-blue':'hsl(212, 21%, 14%)',
         'white': 'hsl(0, 0%, 100%)'
       },
 

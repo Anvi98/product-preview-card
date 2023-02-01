@@ -40,6 +40,10 @@ module.exports = {
         '5xl': '3.052rem',
       },
 
+      height: {
+        '46': '46%',
+      },
+
       letterSpacing: {
         tightest: '-.075em',
         tighter: '-.05em',

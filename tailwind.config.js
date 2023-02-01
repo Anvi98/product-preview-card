@@ -13,6 +13,7 @@ module.exports = {
         'dark blue':'hsl(212, 21%, 14%)',
         'white': 'hsl(0, 0%, 100%)'
       },
+      
       fontSize: {
         sm: '0.6rem',
         base: '14px',
@@ -22,6 +23,7 @@ module.exports = {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
       },
+
       letterSpacing: {
         tightest: '-.075em',
         tighter: '-.05em',
@@ -32,6 +34,10 @@ module.exports = {
         widest: '.1em',
         widest: '.25em',
         custom: '4px',
+      },
+
+      fontFamily: {
+        'fraunces': ['Fraunces', 'sans-serif']
       }
     },
   },
